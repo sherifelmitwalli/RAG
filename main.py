@@ -1,5 +1,5 @@
 # Import necessary libraries
-import openai
+from langchain.llms import OpenAI
 import streamlit as st
 from bs4 import BeautifulSoup
 import requests
